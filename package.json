@@ -1,0 +1,18 @@
+{
+  "name": "tetris-ts",
+  "version": "1.0.0",
+  "description": "The usual Tetris is written in ts",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "webpack"
+  },
+  "author": "Yaroslav Katsaniuk",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
